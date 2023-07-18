@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let count = 0;
+        function nameChange(){
+            if(count%2 == 0)
+            {
+                document.getElementById("Change").innerHTML = "Hello, my name is Singh."
+                
+            }else{
+                document.getElementById("Change").innerHTML = "Hello, my name is Nishant."
+            }
+            count++;
+        }
+    </script>
+
+</head>
+<body>
+    <h1 id="Change">
+        Hello, my name is Nishant.
+    </h1>
+    <button type="button" onclick="nameChange()">Change Name</button>
+</body>
+</html>

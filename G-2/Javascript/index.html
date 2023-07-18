@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let ch = false
+        function changeName(){
+            if(!ch)
+            {
+                document.getElementById("Change").innerHTML = "Hello, My name is Vegeta"
+                ch = !ch;
+            }else{
+                document.getElementById("Change").innerHTML = "Hello, My name is Nishant"
+                ch = !ch;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <h1 id="Change">Hello, My name is Nishant</h1>
+        <button onclick="changeName()">Change Name</button>
+    </div>
+</body>
+</html>

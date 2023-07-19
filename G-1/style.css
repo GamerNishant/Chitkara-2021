@@ -1,43 +1,110 @@
-nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-}
-
-nav ul {
-    -style-type: none;
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+  }
+  
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
 }
 
-nav ul li {
+nav ul{
+    -style-type: none;
+    margin : 0;
+    padding: 0;
+
+}
+
+nav ul li{
     display: inline-block;
     margin-left: 250px;
 }
 
 nav ul li a {
-    text-decoration: brown;
-    color: #333;
+    text-decoration: white;
+    color: whitesmoke;
     padding: 5px;
 }
 
 nav ul li a:hover {
     color: #000;
-    background-color: #ccc;
+    background-color : #ccc;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
 }
 
-
-
-.circle {
-    position: relative;
-    left: 50%;
+.circle{
+    position: absolute;
+    left:50%;
     transform: translateX(-50%);
+    top:170px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    overflow: hidden;
-    margin: 0;
+    overflow:hidden;
+    margin:0;
+    border: 3px solid white;
 }
 
-.about {
-    width: 60px;
+.btn-center{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    margin-top: 150px;
+}
+
+.gradient-background {
+    height: 200px;
+    background: linear-gradient(to bottom, #ff0000, white);
+  }
+
+.main-content{
+    margin-left: 100px;
+    height: 200px;
+    width: 60%;
+}
+
+.foot{
+    display: flex;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    margin: 2px;
+    font-family: poppins;
+    font-size: small;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.first{
+    border: 1px solid grey;
+}
+
+.first:hover{
+    text-decoration: underline;
+}
+
+.second{
+    background-color: rgba(1, 12, 41, 0.827);
+    color: aliceblue;
+}
+.second:hover{
+    text-decoration: underline;
+}
+.card {
+    margin-left: 15px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+.line{
+    border-bottom: 2px solid grey;
 }

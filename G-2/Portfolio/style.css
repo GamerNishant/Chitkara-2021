@@ -31,7 +31,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #000;
     background-color : #ccc;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid red;
     padding-bottom: 5px;
 }
 
@@ -52,12 +52,12 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     position:relative;
-    margin-top: 150px;
+    margin-top: 20px;
 }
 
 .gradient-background {
     height: 200px;
-    background: linear-gradient(to bottom, #ff0000, white);
+    background: linear-gradient(to bottom, #007bff, white);
   }
 
 .main-content{
@@ -107,4 +107,12 @@ button{
   }
 .line{
     border-bottom: 2px solid grey;
+}
+
+.insta{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: medium;
+    font-weight: 400;
 }

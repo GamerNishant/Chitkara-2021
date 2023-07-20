@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 .gradient-background {
     height: 200px;
-    background: linear-gradient(to bottom, #007bff, white);
+    background: linear-gradient(to top, #007bff, white);
   }
 
 .main-content{
@@ -91,7 +91,7 @@ button{
 
 .second{
     background-color: rgba(1, 12, 41, 0.827);
-    color: aliceblue;
+    color: white;
 }
 .second:hover{
     text-decoration: underline;

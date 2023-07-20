@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 .gradient-background {
     height: 200px;
-    background: linear-gradient(to bottom, #ff0000, white);
+    background: linear-gradient(to top, #ff0000, aliceblue);
   }
 
 .main-content{
@@ -91,10 +91,10 @@ button{
 
 .second{
     background-color: rgba(1, 12, 41, 0.827);
-    color: aliceblue;
+    color: white;
 }
 .second:hover{
-    text-decoration: underline;
+    text-decoration:underline;
 }
 .card {
     margin-left: 15px;
